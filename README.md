@@ -7,7 +7,7 @@ JURIS_AI is a sophisticated **Retrieval-Augmented Generation (RAG)** system desi
 ## 🚀 Features
 
 - **Dataset**: Utilizes the **BSARD** dataset containing Belgian legal articles.  
-- **Semantic Chunking**: Recursive chunking to optimize source length for efficient processing.  
+- **Semantic Chunking + Recursive chunking** to optimize source length for efficient processing.  
 - **Milvus Integration**: A vector database with partitions created per legal code for efficient storage and retrieval.  
 - **Search Options**:  
   - Simple search  
