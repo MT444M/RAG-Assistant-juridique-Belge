@@ -1,0 +1,43 @@
+Initialisation du modèle BGEM3 :
+  - Nom du modèle : BAAI/bge-m3
+  - Périphérique utilisé : cuda
+  - Précision mixte (half precision) activée : Oui
+
+
+Informations sur le GPU :
+  - Nom du GPU : NVIDIA GeForce RTX 3060 Laptop GPU
+  - Mémoire totale : 6.00 Go
+  - Précision mixte activée : Oui
+
+
+Chargement du modèle de langage : meta-llama/Llama-3.2-3B-Instruct
+  - Périphérique d'exécution : cuda
+  - Quantisation activée : Oui
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.69s/it]
+  - Configuration de quantification en 4 bits activée
+  - Type de quantification : nf4
+  - Type de calcul : bfloat16
+  - Tokenizer chargé
+  - Vocabulaire du tokenizer : 128256 tokens
+
+
+INFO: Could not find files for the given pattern(s).
+* Running on local URL:  http://127.0.0.1:7860
+
+To create a public link, set `share=True` in `launch()`.
+
+Génération de l'embedding pour la requête : J'ai conduit sans permis et je me suis fait contrôler par la police. Qu'est-ce que je risque ?
+  - Modèle sélectionné : bge_m3
+  - Embedding généré avec BGEM3
+  - Taille de l'embedding : 1024
+
+Connexion à Milvus réussie :
+
+Chargement de la collection Milvus : 'RSchunk_articles_collection'
+  - Nombre de documents : 33259
+
+Chargement des partitions dans la collection 'RSchunk_articles_collection' :
+
+Partitions dans la collection 'RSc' . . .:
+
+

@@ -1,0 +1,1 @@
+from .ui_components import create_legal_assistant_interface

@@ -1,0 +1,31 @@
+JURIS_AI/
+│
+├── config/
+│   └── config.py           # Configuration globale (chemins, paramètres par défaut)
+│
+├── models/
+│   ├── __init__.py
+│   ├── embeddings.py       # Gestion du modèle d'embeddings
+│   └── llm.py             # Gestion du modèle LLM
+│
+├── retrieval/
+│   ├── __init__.py
+│   ├── embeddings_processing.py      # Traitement des embeddings
+│   ├── vector_store.py     # Gestion de Milvus
+│   ├── search.py          # Fonctions de recherche (standard, multi-query, HyDE)
+│   └── reranking.py       # Logique de reranking
+│
+├── generation/
+│   ├── __init__.py
+│   ├── prompts.py         # Templates des prompts
+│   └── generator.py       # Fonction de génération de réponses
+│
+├── interface/
+│   ├── __init__.py
+│   └── ui_components.py     # Composants réutilisables de l'interface
+│
+├── utils/
+│   ├── __init__.py
+│   └── helpers.py        # Fonctions utilitaires
+│
+└── main.py              # Point d'entrée de l'application
