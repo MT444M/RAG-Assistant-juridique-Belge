@@ -23,9 +23,11 @@ JURIS_AI is a sophisticated **Retrieval-Augmented Generation (RAG)** system desi
 
 ## 🖥️ Usage 
 ### Start the Milvus Server: Follow the Milvus documentation to set up and run the Milvus server. 
+NB : contact me for more details on the collection that we create and use.
+
 ### Run the Gradio App:
 ```bash
-python app/main.py
+python main.py
 ```
 
 ---
